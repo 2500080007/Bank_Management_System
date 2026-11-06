@@ -1,16 +1,79 @@
-# React + Vite
+# Bank Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+The Bank Management System is a simple React application developed using React and Vite. It displays customer details, account balance, and available banking services using reusable React components.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React.js
+- Vite
+- JavaScript
+- HTML
+- CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Bank Home Page
+- Customer Details
+- Account Information
+- Account Balance Display
+- Banking Services
+- Reusable React Components
 
-## React Compiler
+## React Concepts Used
+- Functional Components
+- Component Rendering
+- JSX
+- Component Reusability
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
 
-## Expanding the ESLint configuration
+```text
+Bank_Management_System/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── README.md
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/2500080007/Bank_Management_System.git
+```
+
+Enter the project folder:
+
+```bash
+cd Bank_Management_System
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+## Output
+The application displays:
+- ABC Bank Management System
+- Customer Details
+- Account Balance
+- Bank Services
+
+## Author
+Lohith Kumar
+
+## GitHub Repository
+https://github.com/2500080007/Bank_Management_System
